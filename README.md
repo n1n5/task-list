@@ -80,10 +80,11 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 
-5. **Run migrations**
+5. **Run migrations and seed the database**
 
 ```bash
 php artisan migrate
+php artisan db:seed
 ```
 
 6. **Start the development server**
