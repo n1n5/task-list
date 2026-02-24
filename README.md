@@ -50,19 +50,14 @@ git clone https://github.com/n1n5/task-list.git
 cd task-list
 ```
 
-2. **Install PHP dependencies**
+2. **Install dependencies**
 
 ```bash
 composer install
-```
-
-3. **Install Node dependencies**
-
-```bash
 npm install
 ```
 
-4. **Set up your environment**
+3. **Set up your environment**
 
 ```bash
 cp .env.example .env
@@ -80,14 +75,14 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 
-5. **Run migrations and seed the database**
+4. **Run migrations and seed the database**
 
 ```bash
 php artisan migrate
 php artisan db:seed
 ```
 
-6. **Start the development server**
+5. **Start the development server**
 
 ```bash
 composer run dev
